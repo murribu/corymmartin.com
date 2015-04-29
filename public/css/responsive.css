@@ -20,14 +20,12 @@ Nick Petit
     float: right;
   }
   
-
-  
   /**********************************
   PAGE: HOME
   ***********************************/
   
   #cards li {
-    width: 28%;
+    width: 27%;
   }
   
   #cards li:nth-child(4n) {
@@ -80,8 +78,10 @@ Nick Petit
     border-bottom: 5px solid #7F6161;
     margin-bottom: 60px;
   }
-
   
+  #cards li{
+    height:104px;
+  }
 }
 
 

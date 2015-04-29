@@ -13,5 +13,7 @@
 
 Route::get('/', 'HomeController@index');
 
-Route::get('home', 'HomeController@index');
-
+Route::get('index', 'HomeController@index');
+Route::get('resume', 'HomeController@resume');
+Route::get('portfolio', 'HomeController@portfolio');
+Route::get('contact', 'HomeController@contact');
