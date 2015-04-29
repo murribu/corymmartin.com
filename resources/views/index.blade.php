@@ -14,7 +14,7 @@
       </li>
       <li>
         <h3>I believe it should just work</h3>
-        <p>I use automated testing to make sure I have happy users.</p>
+        <p>I'm starting to use automated testing to make sure I have happy users.</p>
       </li>
     </ul>
 @stop

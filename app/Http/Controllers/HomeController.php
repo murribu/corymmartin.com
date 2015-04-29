@@ -24,15 +24,12 @@ class HomeController extends Controller {
 	 * @return Response
 	 */
 	public function index(){
-		return view('index');
-	}
-	public function resume(){
-		return view('resume');
+		return view('index',['page' => 'index']);
 	}
 	public function portfolio(){
-		return view('portfolio');
+		return view('portfolio',['page' => 'portfolio']);
 	}
 	public function contact(){
-		return view('contact');
+		return view('contact',['page' => 'contact']);
 	}
 }

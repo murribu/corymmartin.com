@@ -16,10 +16,10 @@
       </a>
       <nav>
         <ul>
-          <li><a href="/" class="selected">Home</a></li>
-          <li><a href="/resume">Resume</a></li>
-          <li><a href="/portfolio">Portfolio</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="/" <?php if ($page == 'index') {?>class="selected"<?php }?>>Home</a></li>
+          <li><a href="https://www.linkedin.com/pub/cory-martin/2/b93/55b" target="_new">LinkedIn</a></li>
+          <li><a href="/portfolio" <?php if ($page == 'portfolio') {?>class="selected"<?php }?>>Portfolio</a></li>
+          <li><a href="/contact" <?php if ($page == 'contact') {?>class="selected"<?php }?>>Contact</a></li>
         </ul>
       </nav>
     </header>
