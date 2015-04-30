@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\HomeEntry;
+use App\PortfolioEntry;
 
 class HomeController extends Controller {
   protected $layout='master';
@@ -11,7 +12,8 @@ class HomeController extends Controller {
 		return view('index', ['page' => 'index', 'entries' => $entries]);
 	}
 	public function portfolio(){
-		return view('portfolio',['page' => 'portfolio']);
+    $entries = PortfolioEntry::all();
+		return view('portfolio',['page' => 'portfolio', 'entries' => $entries]);
 	}
 	public function contact(){
 		return view('contact',['page' => 'contact']);

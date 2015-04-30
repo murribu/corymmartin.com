@@ -17,7 +17,7 @@ class CreatePortfolioEntriesTable extends Migration {
 			$table->increments('id');
 			$table->string('title');
 			$table->string('when');
-			$table->string('html');
+			$table->text('html');
 			$table->timestamps();
 		});
 	}

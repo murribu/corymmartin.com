@@ -41,6 +41,15 @@ Nick Petit
     margin: 0 5% 80px 0;
   }
   
+  /**********************************
+  PAGE: PORTFOLIO
+  ***********************************/
+  
+  #portfolioCards li p a.team {
+    width: 50%;
+    float: left;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 660px) {
@@ -79,9 +88,24 @@ Nick Petit
     margin-bottom: 60px;
   }
   
+  /**********************************
+  PAGE: HOME
+  ***********************************/
+  
   #cards li{
     height:104px;
   }
+  
+  /**********************************
+  PAGE: PORTFOLIO
+  ***********************************/
+  
+  #portfolioCards li p a.team {
+    width: 33%;
+    float: left;
+    text-align: center;
+  }
+  
 }
 
 
