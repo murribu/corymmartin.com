@@ -24,9 +24,7 @@
       </nav>
     </header>
     <div id="wrapper">
-      <section>
-        @yield('content')
-      </section>
+      @yield('content')
       <footer>
         <a href="http://twitter.com/murribu" target="_new"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
         <a href="http://github.com/murribu" target="_new"><img src="img/GitHub-Mark-64px.png" alt="Twitter Logo" class="social-icon"></a>

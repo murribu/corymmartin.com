@@ -3,6 +3,7 @@
 @section('page', 'index')
 
 @section('content')
+  <section>
     <ul id="portfolioCards">
       <?php foreach($entries as $entry) :?>
         <li>
@@ -11,4 +12,5 @@
         </li>
       <?php endforeach?>
     </ul>
+  </section>
 @stop

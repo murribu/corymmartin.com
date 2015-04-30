@@ -208,8 +208,17 @@ PAGE: CONTACT
 .contact-info li.twitter a {
   background-image: url('../img/twitter.png');
 }
+.contact-info li.github a {
+  background-image: url('../img/GitHub-Mark-64px.png');
+}
 
 
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
 
 /**********************************
 COLORS
