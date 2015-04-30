@@ -12,7 +12,7 @@ class HomeController extends Controller {
 		return view('index', ['page' => 'index', 'entries' => $entries]);
 	}
 	public function portfolio(){
-    $entries = PortfolioEntry::all();
+    $entries = PortfolioEntry::orderBy('created_at','desc')->get();
 		return view('portfolio',['page' => 'portfolio', 'entries' => $entries]);
 	}
 	public function contact(){
