@@ -28,7 +28,8 @@
         @yield('content')
       </section>
       <footer>
-        <a href="http://twitter.com/murribu"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="http://twitter.com/murribu" target="_new"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="http://github.com/murribu" target="_new"><img src="img/GitHub-Mark-64px.png" alt="Twitter Logo" class="social-icon"></a>
         <p>&copy; 2015 Cory Martin.</p>
       </footer>
     </div>
