@@ -18,6 +18,7 @@
         <ul>
           <li><a href="/" <?php if (isset($page) && $page == 'index') {?>class="selected"<?php }?>>Home</a></li>
           <li><a href="https://www.linkedin.com/pub/cory-martin/2/b93/55b" target="_new">LinkedIn</a></li>
+          <li><a href="http://blog.corymmartin.com" target="_new">Blog</a></li>
           <li><a href="/portfolio" <?php if (isset($page) && $page == 'portfolio') {?>class="selected"<?php }?>>Portfolio</a></li>
           <li><a href="/contact" <?php if (isset($page) && $page == 'contact') {?>class="selected"<?php }?>>Contact</a></li>
         </ul>
